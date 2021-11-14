@@ -1,9 +1,5 @@
-# springboot-docker-example
-Beispiel einer SpringBoot-Applikation mit Docker,
+## start URL http://localhost:8080/products
 
-## URL im Browser: http://localhost:8086/userinfo/message
-
-### Aufruf der H2-Console http://localhost:8086/h2-console
-
-#### `docker rmi $(docker images -a -q)`  -> hiermit werden alle Docker Images gelöscht
-
+### Anzeige der H2-Console http://localhost:8080/h2-console
+JDBC URL jdbc:h2:mem:testsb
+kein Password 
